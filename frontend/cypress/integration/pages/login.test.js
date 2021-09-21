@@ -10,7 +10,7 @@ describe('Login', () => {
       .find('img')
       .should('be.visible')
       .should('have.attr', 'alt')
-      .should('contain', 'iPhone with Instagram app');
+      .should('contain', 'iPhone with Picturegram app');
   });
 
   it('inputs email address and password and submits the form', () => {

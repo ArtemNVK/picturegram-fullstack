@@ -10,7 +10,7 @@ describe('Dashboard', () => {
       .find('img')
       .should('be.visible')
       .should('have.attr', 'alt')
-      .should('contain', 'iPhone with Instagram app');
+      .should('contain', 'iPhone with Picturegram app');
 
     cy.get('form').within(() => {
       cy.get('input:first')

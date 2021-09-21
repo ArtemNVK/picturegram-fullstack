@@ -43,7 +43,7 @@ export default function SignUp() {
       <div className="hidden lg:flex w-full lg:w-3/5">
         <img
           src="/images/iphone-with-profile.jpg"
-          alt="iPhone with Instagram app"
+          alt="iPhone with Picturegram app"
           className="object-scale-down"
         />
       </div>
