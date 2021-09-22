@@ -10,7 +10,6 @@
     "axios": "^0.21.4",
     "date-fns": "^2.22.1",
     "express": "^4.17.1",
-    "firebase": "^8.7.1",
     "global": "^4.4.0",
     "postcss": "^8.3.6",
     "prop-types": "^15.7.2",
@@ -65,11 +64,7 @@
     "collectCoverageFrom": [
       "!<rootDir>/src/App.js",
       "!<rootDir>/src/index.js",
-      "!<rootDir>/src/seed.js",
-      "!<rootDir>/src/fixtures/*.js",
-      "!<rootDir>/src/hooks/*.js",
-      "!<rootDir>/src/helpers/*.js",
-      "!<rootDir>/src/services/firebase.js"
+      "!<rootDir>/src/helpers"
     ],
     "coverageThreshold": {
       "global": {
